@@ -39,7 +39,7 @@ if(cmd === `${prefix}accept`){
 
 if(cmd === `${prefix}decline`){
   const bUser = message.mentions.users.first();
-  bUser.send("You've been declined access from Tropidise's main server! You have 2 more times that you can appeal your ban!");
+  bUser.send("You've been declined access from Tropidise's main server! Try appealing again soon.");
 }
 
 });
