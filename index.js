@@ -4,7 +4,7 @@ const client = new Discord.Client();
 const bot = new Discord.Client({disableEveryone: false});
 
 bot.on("ready", async () => {
-bot.user.setActivity("for errors", {type: 'WATCHING' })
+bot.user.setActivity("for appeals", {type: 'WATCHING' })
 });
 
 bot.on("message", async message => {
